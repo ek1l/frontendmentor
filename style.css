@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    text-decoration: none;
+    list-style: none;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    background-color: white;
+    margin-right: 500px;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagens {
+    background: rgb(83,35,59);
+    background: linear-gradient(90deg, rgba(83,35,59,1) 0%, rgba(48,45,92,1) 51%, rgba(34,9,48,1) 100%);
+    height: 100vh;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+#mover2 {
+    position:relative;
+    left:  300px;
+
+}
+
+#mover1 {
+    position:relative;
+    left:  200px;
+}
+.nome-cartao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nome-cartao input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid purple;
+    color: gray;
+}
+
+.nome-cartao label {
+color: rgb(80, 2, 80);
+}
+
+
+
+.numero-cartao input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid purple;
+    color: gray;
+}
+
+.numero-cartao label {
+color: rgb(80, 2, 80);
+}
+
+.numero-cartao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.data-seguranca input {
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid purple;
+    color: gray;
+}
+
+.data-seguranca label {
+color: rgb(80, 2, 80);
+}
+
+.data-seguranca {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    
+}
+.data input {
+    height: 20px ;
+    margin-bottom: 10px;
+}
+
+
+.codigo-seguranca{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+form input {
+    font-weight: bold;
+}
+
+form input[type="button"] {
+    padding:10px;
+    width:100px;
+    transition:1s;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background: rgb(83,35,59);
+    border: 1px solid white;
+    background: linear-gradient(90deg, rgba(83,35,59,1) 0%, rgba(48,45,92,1) 51%, rgba(34,9,48,1) 100%);
+    
+}
+
+form input[type="button"]:hover {
+transition: 10s;
+    color: white;
+    background: linear-gradient(90deg, rgb(131, 55, 93) 0%, rgb(68, 63, 129) 51%, rgb(87, 23, 124) 100%);
+}
+
+.info-card {
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left:320px;
+    color: white;
+}
+
+
+.info-card input {
+    padding: 5px;
+    background: transparent;
+    border: none;
+    
+}
+
+
+
+.numero-data {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.cvc-card p{
+    position: relative;
+    left: 650px;
+    top: -135px;
+    color: bla;
+    
+}
+
+p {
+    font-weight: bold;
+}
